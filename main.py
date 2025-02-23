@@ -5,16 +5,13 @@ from streamlit_option_menu import option_menu
 
 from gemini_utility import load_gemini_model
 
-# get the working directory
-working_dir = os.path.dirname(os.path.abspath(__file__))
-print(working_dir)
-
 st.set_page_config(
     page_title="AI Chatbot",
     page_icon=":lion:",
     layout="wide",
 )
 
+# designing the sidebar of the app
 with st.sidebar:
     selected = option_menu(
         menu_title="Gemini AI",
