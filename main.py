@@ -18,7 +18,7 @@ with st.sidebar:
         options=["ChatBot","Image Captioning",
                  "Embed Text",
                  "Ask me Anything"],
-        menu_icon="robot", icons=['chat-dots','image','textarea-t','patch-question-fill'],
+        menu_icon="robot", icons=['chat-dots-fill','images','textarea-t','patch-question-fill'],
         default_index=0,
     )
 
